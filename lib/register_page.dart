@@ -44,7 +44,7 @@ class _RegisterPageState extends State<RegisterPage> {
           leading: IconButton(
             icon: const Icon(Icons.arrow_back,
                 color: Color.fromARGB(255, 36, 97, 49)),
-            onPressed: () => Navigator.pop(context), // Navigates back
+            onPressed: () => Navigator.pop(context), 
           ),
           title: const Text(
             'Register Page',
@@ -66,7 +66,7 @@ class _RegisterPageState extends State<RegisterPage> {
                 child: ClipRRect(
                   borderRadius: BorderRadius.circular(24),
                   child: Image.asset(
-                    'assets/logo2.png', // Make sure this exists in your assets folder
+                    'assets/logo2.png',
                     fit: BoxFit.contain,
                   ),
                 ),
